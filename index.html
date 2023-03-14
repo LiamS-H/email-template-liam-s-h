@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap--><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Icons--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
+    
+
+
+    <title>Bootstrap Email Template</title>
+</head>
+<body class="bg-dark">
+    <div class="container-fluid">
+        <!-- Search Bar (copy for md and sm to display above )-->
+        <form>
+            <div class="input-group d-lg-none row-100 bg-secondary" id="search-bar">
+                <div class="form-outline col-8">
+                    <input class="form-control" type="search" id="search-query" placeholder="Search Mail" >    
+                </div>
+                <div class="form-outline col-2">
+                    <button class="form-control btn">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <div class="form-outline col-2">
+                    <button class="form-control btn">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+        
+        <div class="row">    
+            
+            <!-- Email List -->
+            <div class="col-lg-4 col-md-6" id="email-list">
+                <!-- Search Bar -->
+                <form>
+                    <div class="input-group d-lg-inline-flex d-none row-100 bg-secondary" id="search-bar">
+                        <div class="form-outline col-10">
+                            <input class="form-control" type="search" id="search-query" placeholder="Search Mail" >    
+                        </div>
+                        <div class="form-outline col-2">
+                            <button class="form-control btn">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                    
+                <!-- Emails -->
+                <ul class="list-group">
+                    <li class="list-group-item bg-secondary"><strong>Email Example One</strong><br>Body text goes here...</li>
+                    <li class="list-group-item bg-light"><strong>Email Example Two</strong><br>Body text goes here...</li>
+                    <li class="list-group-item bg-secondary"><strong>Email Example Three</strong><br>Body text goes here...</li>
+                </ul>
+            </div>
+
+            <!-- Email Viewer -->
+            <div class="col-lg col-md-6 col-sm-12 bg-light" id="email-display">
+                <h6>To: user@fake-email.com</h6>
+                <h6>From: sender@fake-email.com</h6>
+                <h3><strong>Subject: Email Example Two</strong></h3>
+                <p class="message">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+            <!-- Settings Bar -->
+            <div class="col-lg-2 order-lg-first col-md-12 h-100 bg-secondary">
+                <div class="d-lg-inline d-flex flex-row-reverse align-items-center" id="options-bar">
+                <!-- Profile -->
+                
+                    <div class="profile d-flex flex-column">
+                        
+                        <img class="rounded-circle profile-picture" src="/static/pfp.png">
+                        <h1 class="d-lg-inline d-sm-none d-none">Name</h1>
+                        <span class="email-adress d-lg-inline-block text-truncate d-none">
+                            email.adress@gmail.com
+                        </span>
+                    </div>
+
+                    <div id="name-email"> <!-- name display for sm -->
+                        <h1 class="d-lg-none d-sm-inline">Name</h1>
+                        <span class="email-adress d-lg-none d-inline-block text-truncate ">
+                            email.adress@gmail.com
+                        </span>
+                    </div>
+                <!-- options -->
+
+                        <button class="form-control btn-secondary">
+                            Settings
+                        </button>
+                        <button class="form-control btn-secondary">
+                            Logout
+                        </button>
+                        <button class="form-control btn-primary">
+                            Compose
+                        </button>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

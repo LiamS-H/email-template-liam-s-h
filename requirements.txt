@@ -1,0 +1,24 @@
+Requirements for the assignment:
+1. Create Email Template with 3-column layout using Bootstrap Grid
+2. Use at least 2 components from Bootstrap (e.g., button, list group, card, badges, scrollspy, navbar- you can pick)
+3. Must have the following elements:
+  a. A heading
+  b. A compose button
+  c. "Folders" aka Inbox/Drafts/Sent/Trash/etc
+  d. A search bar
+  e. 3+ emails inside your inbox with one currently   open
+  f. A textarea box for replying 
+  g. A reply button
+4. You must style your project in your CSS, do not depend on the Bootstrap styling alone
+5. Implement breakpoints based on your wireframes that you submitted (watch study session video if you need to review this, we went over it in more depth)
+6. KEEP DEV LOG UP TO DATE AND RESUBMIT AT THE END!
+
+OPTIONAL EXTRA STUFF
+a. import Google Fonts
+b. import icons
+c. media queries
+d. Use flexbox
+e. Use collapse and show classes from Bootstrap to hide and reveal certain columns at different breakpoints
+f. fancy button effects
+g. cool backgrounds
+h. have fun with it and be creative

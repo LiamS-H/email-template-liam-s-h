@@ -1,0 +1,30 @@
+.profile-picture {
+    width : 200px;
+}
+
+@media screen and (max-width: 1400px) {
+    .profile-picture {
+        width : 100px;
+    }
+}
+
+#name-email {
+    width : 100px;
+}
+
+.list-group-item {
+    margin : 10px;
+}
+
+#options-bar>button {
+    margin: 10px;
+    height: 20%;
+}
+
+#search-bar {
+    margin : 10px;
+}
+
+.email-adress {
+    max-width: 100%;
+}
