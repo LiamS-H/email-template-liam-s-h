@@ -28,3 +28,9 @@
 .email-adress {
     max-width: 100%;
 }
+
+@media (max-width: 992px) {
+    #email-display {
+        margin-bottom: 10px;
+    }
+}
